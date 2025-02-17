@@ -3,7 +3,7 @@ const mongoose = require("mongoose")
 const batchesschema= new mongoose.Schema({
     BatcheType:String,
     course:String,
-    Date:Date,
+    Date:String,
     Timing:String,
     Duration:String,
     Triner:String,
